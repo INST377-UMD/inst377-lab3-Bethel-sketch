@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: sans-serif; /* Custom font-family */
+    margin: 0;
+}
+
+/* Header and Footer */
+.header-footer {
+    background-color: #f0f0f0;
+    color: blue; /* Different color than the rest of the page */
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Horizontal alignment */
+    justify-content: space-around; /* Evenly space items */
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+nav li a:hover {
+    background-color: #bbb;
+}
+
+/* Body Container */
+.body-container {
+    display: flex; /* Main content and sidebar on one line */
+    margin: 10px;
+}
+
+/* Main Content */
+.main-content {
+    width: 70%; /* Percentage width */
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%; /* Percentage width */
+    background-color: lightgreen; /* Different color */
+    margin: 10px;
+    padding: 10px;
+}
+
+.sidebar:hover {
+    background-color: lightcoral; /* Hover background color */
+}
+
+/* Form Styling */
+label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    width: 200px; /* Original width */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+input[type="text"]:focus {
+    width: 300px; /* Increased width on focus */
+}
